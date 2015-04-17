@@ -24,7 +24,8 @@ module.exports = function (grunt) {
                     src : [
                         staticPathPrefix + '/css/*.css',
                         staticPathPrefix + '/js/*.js',
-                        staticPathPrefix + '/templates/*.html'
+                        staticPathPrefix + '/templates/*.html',
+                        '**/*.py'
                     ]
                 },
                 options: {
